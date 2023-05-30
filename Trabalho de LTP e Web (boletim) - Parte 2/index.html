@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portal do Professor - Calculadora de Média</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        html {
+            background: url(imgs/Edan2.png) no-repeat center center fixed;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <h1 class="title">Portal do Professor - Calculadora de Média</h1>
+            <div class="columns">
+                <div class="column">
+                    <div class="field">
+                        <label class="label">Matrícula do aluno</label>
+                        <div class="control">
+                            <input id="matricula" class="input" type="text">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column">
+                    <div class="field">
+                        <label class="label">Matemática</label>
+                        <div class="control">
+                            <input id="matematica1" class="input" type="number">
+                        </div>
+                        <div class="control">
+                            <input id="matematica2" class="input" type="number">
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="field">
+                        <label class="label">Inglês</label>
+                        <div class="control">
+                            <input id="ingles1" class="input" type="number">
+                        </div>
+                        <div class="control">
+                            <input id="ingles2" class="input" type="number">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column">
+                    <div class="field">
+                        <label class="label">Português</label>
+                        <div class="control">
+                            <input id="portugues1" class="input" type="number">
+                        </div>
+                        <div class="control">
+                            <input id="portugues2" class="input" type="number">
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="field">
+                        <label class="label">Artes</label>
+                        <div class="control">
+                            <input id="artes1" class="input" type="number">
+                        </div>
+                        <div class="control">
+                            <input id="artes2" class="input" type="number">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column">
+                    <div class="field">
+                        <label class="label">Geografia</label>
+                        <div class="control">
+                            <input id="geografia1" class="input" type="number">
+                        </div>
+                        <div class="control">
+                            <input id="geografia2" class="input" type="number">
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="field">
+                        <label class="label">História</label>
+                        <div class="control">
+                            <input id="historia1" class="input" type="number">
+                        </div>
+                        <div class="control">
+                            <input id="historia2" class="input" type="number">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="field">
+                <div class="control">
+                    <button id="calcular" class="button is-black">Calcular Média</button>
+                </div>
+            </div>
+            <div id="resultado" class="notification is-hidden"></div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="field">
+                <div class="control">
+                    <button id="sobre" class="button is-white">Sobre</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
