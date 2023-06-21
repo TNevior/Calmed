@@ -1,4 +1,5 @@
 $(document).ready(function () {
+
   $("#calcular").click(function () {
     var matricula = $("#matricula").val();
 
@@ -102,8 +103,6 @@ $(document).ready(function () {
       }
 
       resultado += "<br>" + mensagem;
-
-      console.log(resultado); // Adicionado console.log
 
       $("#resultado").html(resultado);
       $("#resultado").removeClass("is-hidden");
