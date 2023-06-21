@@ -47,6 +47,11 @@ $(document).ready(function () {
       var mediaGeografia = calcularMedia(notasGeografia);
       var mediaHistoria = calcularMedia(notasHistoria);
 
+    
+      resultados = {
+        'Matrícula': matricula, 'Matemática': mediaMatematica, 'Inglês': mediaIngles,'Português': mediaPortugues,'Artes': mediaArtes,'Geografia': mediaGeografia,'História': mediaHistoria};
+
+
       var notasAbaixoDeCinco = 0;
       var mensagem = "";
       var resultado = "Matrícula: " + matricula + "<br><br>";
