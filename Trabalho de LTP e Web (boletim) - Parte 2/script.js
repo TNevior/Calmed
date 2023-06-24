@@ -49,13 +49,20 @@ $(document).ready(function () {
 
     
       resultados = {
-        'Matrícula': matricula, 'Matemática': mediaMatematica, 'Inglês': mediaIngles,'Português': mediaPortugues,'Artes': mediaArtes,'Geografia': mediaGeografia,'História': mediaHistoria};
+        'Matrícula': matricula, 
+        'Matemática': mediaMatematica, 
+        'Inglês': mediaIngles,
+        'Português': mediaPortugues,
+        'Artes': mediaArtes,
+        'Geografia': mediaGeografia,
+        'História': mediaHistoria
+      };
 
 
       var notasAbaixoDeCinco = 0;
       var mensagem = "";
-      var resultado = "Matrícula: " + matricula + "<br><br>";
-      resultado += "Médias das Matérias:<br>";
+      var resultado = "MATRÍCULA: <span style='color: blue;'>" + matricula + "</span><br><br>";
+      resultado += "MÉDIAS DAS MATÉRIAS:<br>";
 
       if (mediaMatematica < 5) {
         resultado += '<span style="color: red;">Matemática: ' + mediaMatematica.toFixed(2) + '</span><br>';
