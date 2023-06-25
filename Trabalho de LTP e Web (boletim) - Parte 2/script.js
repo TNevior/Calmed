@@ -47,17 +47,15 @@ $(document).ready(function () {
       var mediaGeografia = calcularMedia(notasGeografia);
       var mediaHistoria = calcularMedia(notasHistoria);
 
-    
       resultados = {
-        'Matrícula': matricula, 
-        'Matemática': mediaMatematica, 
-        'Inglês': mediaIngles,
-        'Português': mediaPortugues,
-        'Artes': mediaArtes,
-        'Geografia': mediaGeografia,
-        'História': mediaHistoria
+        '(1)Matrícula': matricula, 
+        '(2)Matemática': mediaMatematica, 
+        '(3)Inglês': mediaIngles,
+        '(4)Português': mediaPortugues,
+        '(5)Artes': mediaArtes,
+        '(6)Geografia': mediaGeografia,
+        '(7)História': mediaHistoria
       };
-
 
       var notasAbaixoDeCinco = 0;
       var mensagem = "";
